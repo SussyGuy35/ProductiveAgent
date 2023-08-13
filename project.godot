@@ -13,7 +13,6 @@ config_version=4
 config/name="ProductiveApp"
 run/main_scene="res://RaiseiSmok.tscn"
 run/low_processor_mode=true
-boot_splash/show_image=false
 config/icon="res://icon.png"
 config/windows_native_icon="res://raiseismok.ico"
 config/auto_accept_quit=false
