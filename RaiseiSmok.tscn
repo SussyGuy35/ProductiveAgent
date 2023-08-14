@@ -26,4 +26,8 @@ margin_top = -25.0
 margin_right = -169.0
 margin_bottom = 15.0
 
+[node name="TrashTimer" type="Timer" parent="."]
+autostart = true
+
 [connection signal="pressed" from="HotQuit" to="." method="no_more_productive"]
+[connection signal="timeout" from="TrashTimer" to="." method="_on_TrashTimer_timeout"]
